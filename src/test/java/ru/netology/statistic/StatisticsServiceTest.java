@@ -18,7 +18,7 @@ public class StatisticsServiceTest {
         Assertions.assertEquals(expected, actual);
     }
     @Test
-    void findMaxNew() {
+    void findMaxMidleNew() {
         StatisticsService service = new StatisticsService();
 
         long[] incomesInBillions = {12, 5, 8, 4, 5, 3, 80, 6, 11, 11, 12};
